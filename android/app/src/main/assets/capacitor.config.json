@@ -1,0 +1,6 @@
+{
+	"appId": "cmd.teste",
+	"appName": "yenny",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

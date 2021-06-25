@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "187298301374",
+    "firebase_url": "https://clubemilionario-3270c-default-rtdb.firebaseio.com",
+    "project_id": "clubemilionario-3270c",
+    "storage_bucket": "clubemilionario-3270c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187298301374:android:d212240c5c1ade64d4a5ef",
+        "android_client_info": {
+          "package_name": "cmd.teste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187298301374-12cji6nm1ehhj78rugrg0mhb7a68348a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-0WNr9GOcyuyZIsh0Ntr0gUpWCK-7qXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187298301374-12cji6nm1ehhj78rugrg0mhb7a68348a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
