@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActionPerformed, PushNotificationSchema, PushNotifications, Token, } from '@capacitor/push-notifications';
+import { Share } from '@capacitor/share';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -22,7 +23,7 @@ export class HomePage implements OnInit {
       }
     });
 
-    PushNotifications.addListener('registration', (token: Token) => {
+    PushNotifications.addListener('registration', async (token: Token) => {
       alert('Push registration success, token: ' + token.value);
       this.token = token.value;
     });
@@ -46,4 +47,11 @@ export class HomePage implements OnInit {
     );
   }
 
+  onCopy = async () => {
+    console.log('onCopy');
+    await Share.share({
+      title: 'Token',
+      text: this.token,
+    });
+  };
 }

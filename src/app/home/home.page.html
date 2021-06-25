@@ -7,8 +7,13 @@
 
   <div id="container">
     <strong>Token do PUSH</strong>
-    <p>
-      {{ token }}
-    </p>
+    <ion-text color="primary">
+      <p class="token">
+        {{ token }}
+      </p>
+    </ion-text>
+    <ion-button (click)="onCopy()" expand="block" shape="round">
+      Copiar Token
+    </ion-button>
   </div>
 </ion-content>
